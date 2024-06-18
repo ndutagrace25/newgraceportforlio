@@ -1,10 +1,10 @@
 import React from "react";
 import website from "../images/website1.png";
-import dashboad from "../images/dashboad.png";
+import simaxis from "../images/simaxis.jpg";
 import powwater from "../images/powwater.jpg";
 import Fade from "react-reveal/Fade";
 import ts from "../images/Typescript_logo.png";
-import partnership from "../images/partnership.png";
+import abe from "../images/abe.jpg";
 
 const Projects = ({ projectsDivRef }) => {
   return (
@@ -66,7 +66,7 @@ const Projects = ({ projectsDivRef }) => {
               <div className="shadow rounded p-3 col-md-6 image-card">
                 <img
                   alt="project"
-                  src={dashboad}
+                  src={simaxis}
                   className="img-fluid project-image rounded"
                   height={100}
                 />
@@ -75,18 +75,17 @@ const Projects = ({ projectsDivRef }) => {
                 <div className="primary-text-color fw-bold my-3">
                   REACT, TYPESCRIPT and NODE
                 </div>
-                <h5 className="fw-bold text-capitalize">PowWater Dashboard</h5>
+                <h5 className="fw-bold text-capitalize">Si-Maxis Meters</h5>
                 <p>
-                  For PowWater's internal operations, I led the development of a
-                  comprehensive dashboard utilizing React.js and TypeScript for
-                  the frontend and Node.js for creating APIs. This dashboard
-                  serves as a centralized hub for report generation, order
-                  management, and assignment. An integral aspect of this project
-                  was integrating the dashboard with QuickBooks for seamless
-                  invoicing and statement management. Additionally, I
-                  implemented integration with M-Pesa for efficient payment
-                  processing, enhancing the dashboard's functionality and
-                  utility for PowWater's operations.
+                  For Si-Maxis meters, I led the development of a comprehensive
+                  customer facing portal utilizing React.js and TypeScript for
+                  the frontend and Node.js for creating APIs. This portal serves
+                  as a centralized hub for report generation, buying meter
+                  tokens, and managing water and electricity meters. An integral
+                  aspect of this project was integrating the platform with
+                  M-PESA for seamless payment and statement management,
+                  enhancing the portal's functionality and utility for
+                  Si-Maxis's operations.
                 </p>
                 <div className="my-2 d-flex justify-content-between col-md-3 align-items-center">
                   <i className="fab fa-react fa-lg text-info"></i>
@@ -117,22 +116,22 @@ const Projects = ({ projectsDivRef }) => {
               </a>
               <div className="col-md-5 px-3">
                 <div className="primary-text-color fw-bold my-3">
-                  REACT NATIVE, TYPESCRIPT and NODE
+                  Android & iOS
                 </div>
                 <h5 className="fw-bold text-capitalize">PowWater Mobile App</h5>
                 <p>
-                  I developed the PowWater mobile app using React Native for the
-                  frontend and Node.js for API development. The app enables
-                  customers to conveniently place orders, make payments, and
-                  access their ordering patterns. This project streamlined the
-                  customer experience, enhancing PowWater's service
-                  accessibility and efficiency.
+                  I developed a mobile app for PowWater, designed to enhance
+                  user experience and streamline access to clean water
+                  solutions. The app provides users with easy navigation,
+                  real-time updates, and a seamless interface to manage their
+                  water needs. This project contributed to improved user
+                  engagement and operational efficiency for PowWater.
                 </p>
-                <div className="my-2 d-flex justify-content-between col-md-3 align-items-center">
+                {/* <div className="my-2 d-flex justify-content-between col-md-3 align-items-center">
                   <i className="fab fa-react fa-lg text-info"></i>
                   <i className="fab fa-node fa-2x"></i>
                   <img src={ts} alt="TS" width="20" />
-                </div>
+                </div> */}
                 <a
                   className="fw-bold text-uppercase"
                   href="https://play.google.com/store/apps/details?id=com.powwater.customer&hl=en&gl=US"
@@ -151,7 +150,7 @@ const Projects = ({ projectsDivRef }) => {
               <div className="shadow rounded p-3 col-md-6 image-card">
                 <img
                   alt="project"
-                  src={partnership}
+                  src={abe}
                   className="img-fluid project-image rounded"
                   height={100}
                 />
@@ -161,15 +160,17 @@ const Projects = ({ projectsDivRef }) => {
                   REACT, TYPESCRIPT and NODE
                 </div>
                 <h5 className="fw-bold text-capitalize">
-                  PowWater Partnership Portal
+                  E-commerce Platform for ABE
                 </h5>
                 <p>
-                  I designed and implemented a partners portal for PowWater,
-                  enabling third-party individuals to track assigned orders,
-                  view earnings, and request payments. Leveraging React for the
-                  frontend, and Node.js with TypeScript for backend development,
-                  this portal optimizes efficiency and transparency in
-                  PowWater's partnership ecosystem.
+                  I developed an e-commerce platform for ABE that allows
+                  customers to browse and request products effortlessly. The
+                  platform was built using React.js for a responsive and dynamic
+                  user interface, TypeScript for improved code quality and
+                  maintainability, and Node.js for a robust back-end to handle
+                  product data and customer requests. This project significantly
+                  enhanced customer engagement and satisfaction, providing a
+                  scalable and efficient solution with modern technologies.
                 </p>
                 <div className="my-2 d-flex justify-content-between col-md-3 align-items-center">
                   <i className="fab fa-react fa-lg text-info"></i>
