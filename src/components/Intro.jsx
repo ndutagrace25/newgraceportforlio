@@ -29,7 +29,7 @@ const Intro = () => {
                       with <span className="fw-bold">8+ years</span> of
                       experience with a passion for crafting robust and
                       innovative solutions using cutting-edge technologies. With
-                      a focus on Node.js, React.js, React Native, and
+                      a focus on Node.js, React.js, Next.js, React Native, and
                       TypeScript, I thrive in dynamic environments where I can
                       apply my expertise to create efficient and scalable
                       software solutions.
