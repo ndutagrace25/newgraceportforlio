@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import ts from "../images/Typescript_logo.png";
+import next from "../images/next.svg";
 import google_cloud from "../images/google_cloud.png";
 import sql from "../images/sql.jpg";
 import qb from "../images/qb.jpg";
@@ -62,6 +63,10 @@ const Skills = ({ skillsDivRef }) => {
                   <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
                     <img src={ts} alt="TS" width="30" />
                     <span className="ps-3 fw-bold skill-size">TYPESCRIPT</span>
+                  </div>
+                  <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
+                    <img src={next} alt="TS" width="30" />
+                    <span className="ps-3 fw-bold skill-size">NEXT JS</span>
                   </div>
                   <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
                     <i className="fab fa-react fa-2x"></i>
